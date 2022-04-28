@@ -39,7 +39,7 @@ curl -s --data \"text=\${message}\" \\
         --data \"chat_id=\$TG_CHAT_ID\" \\
         --data \"parse_mode=markdown\" \\
         \"https://api.telegram.org/bot\${TG_TOKEN}/sendMessage\"
-" > /root/tg2.sh
+" > /root/tg.sh
 
 chmod u+x /root/tg.sh
 
